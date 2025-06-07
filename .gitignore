@@ -1,0 +1,22 @@
+Archivos y carpetas a ignorar por Git
+--- Archivos generados ---
+Ignorar cualquier archivo PNG, ya que son el resultado del script
+*.png
+
+--- Entornos virtuales ---
+Ignorar carpetas de entornos virtuales de Python
+venv/
+.venv/
+env/
+.env/
+
+--- Caché de Python ---
+Ignorar archivos y carpetas de caché generados por Python
+pycache/
+*.pyc
+*.pyo
+*.pyd
+
+--- Archivos de IDEs y editores ---
+.vscode/
+.idea/
